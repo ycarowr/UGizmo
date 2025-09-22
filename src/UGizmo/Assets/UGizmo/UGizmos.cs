@@ -655,7 +655,7 @@ namespace UGizmo
 
             if (loop)
             {
-                destination[count] = new LineData(points[count - 1], points[0], *(Color*)color);
+                destination[count-1] = new LineData(points[count - 1], points[0], *(Color*)color);
             }
         }
 
